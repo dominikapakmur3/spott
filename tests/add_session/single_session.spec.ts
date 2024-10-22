@@ -31,11 +31,6 @@ test.describe('add session', () => {
             await sessionPage.fillform(sessionName, activityName, clientsName)
 
 
-
-
-
-
-
             // await page.getByRole('button', { name: 'Create Session' }).click();
             // await page.getByPlaceholder('ex. New Session').click();
             // await page.getByPlaceholder('ex. New Session').fill('Test Session');
